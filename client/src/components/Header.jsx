@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <Navbar className='border-b-2'>
             <Link to={'/'} className='whitespace-nowrap text-sm self-center sm:text-xl font-semibold dark:text-white'>
-                <span className='bg-cyan-600 px-2 py-1 rounded-lg text-white'>Boda&#39;s</span>Blog
+                <span className='bg-cyan-600 hover:bg-cyan-800 px-2 py-1 rounded-lg text-white'>Boda&#39;s</span>Blog
             </Link>
             <form>
                 <TextInput type='text' placeholder='Search...' rightIcon={FaSearch} className='hidden lg:inline' />
